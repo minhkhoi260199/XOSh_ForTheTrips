@@ -13,7 +13,7 @@ function Footer(){
     const year = new Date().getFullYear();
 
     return(
-        <Box bg='#ffde46' w='100%' pb={{base:'74px', md:'0'}} color='black'>
+        <Box bg='#ffde46' w='100%' pb={{base:'74px', md:'0'}} color='black' position='fixed' bottom='0'>
             <Flex margin='auto' maxW='1250px' p={5} >
                 {/* <SimpleGrid columns={{base:'1', md:'2'}} spacing={80}
                             width="100%" 
